@@ -23,6 +23,7 @@ import contaiImage from "@/assets/projects/contai.png";
 import contaiImage2 from "@/assets/projects/contai-2.png";
 import contaiImage3 from "@/assets/projects/contai-3.png";
 import contaiImage4 from "@/assets/projects/contai-4.png";
+import { FaNodeJs } from "react-icons/fa6";
 
 export const projects = [
   {
@@ -44,8 +45,8 @@ export const projects = [
         icon: SiTypescript,
       },
       {
-        name: "Laravel",
-        icon: FaLaravel,
+        name: "Node Js",
+        icon: FaNodeJs,
       },
     ],
   },
