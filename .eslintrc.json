@@ -1,0 +1,20 @@
+{
+  "env": {
+    "commonjs": true,
+    "es2021": true,
+    "node": true,
+    "jest": true
+  },
+  "extends": ["standard", "plugin:prettier/recommended", "eslint:recommended"],
+  "parserOptions": {
+    "ecmaVersion": "latest"
+  },
+  "rules": {
+    "indent": ["error", 4],
+    "semi": ["error", "always"],
+    "import/no-absolute-path": "off",
+    "quote-props": ["error", "consistent-as-needed"],
+    "prettier/prettier": "error"
+  },
+  "plugins": ["prettier"]
+}
