@@ -6,5 +6,6 @@ export const Routes = () => {
     <DomRoutes>
       <Route path="/" element={<Home />} />
       <Route path="/project/:projectId" element={<Project />} />
+    </DomRoutes>
   );
 };
