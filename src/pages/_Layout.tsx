@@ -24,18 +24,21 @@ export const Layout = ({ children }: ILayoutProps) => {
 
         <div className="text-gray-950 dark:text-white">
           <div className="mt-5">
-            <div className="mx-2 font-mono text-sm/7 font-medium tracking-widest text-gray-500 uppercase">
+            <div className="mx-2 font-mono text-sm/7 font-medium tracking-widest text-gray-500 uppercase max-md:text-center">
               Desenvolvedor Fullstack | 15 anos de experiência
             </div>
-            <Section className="my-8 py-0 px-0">
-              <Link to="/">
-                <Logo className="inline-block h-28 fill-gray-400 mx-2 -my-5" />
+            <Section className="my-8 py-0 px-0 flex max-md:justify-center">
+              <Link to="/" className="inline-block -my-5 mx-2">
+                <Logo className="h-28 fill-gray-400" />
               </Link>
             </Section>
           </div>
           {children}
           <Section className="my-8 py-0 px-0 flex flex-col md:flex-row md:justify-between">
-            <div className="mx-2 text-sm/7 text-gray-500 dark:text-gray-400 text-left flex gap-4 items-center">
+            <div
+              className="mx-2 text-sm/7 text-gray-500 dark:text-gray-400 text-left flex gap-4 items-center max-md:flex-col
+                max-md:gap-0"
+            >
               <div className="flex gap-2 items-center">
                 <FaEnvelope className="inline-block h-5 w-5" />
                 <a href="mailto:freddonega@gmail.com" className="hover:underline">
@@ -50,7 +53,7 @@ export const Layout = ({ children }: ILayoutProps) => {
                 </a>
               </div>
             </div>
-            <div className="mx-2 text-sm/7 text-gray-500 dark:text-gray-400 md:text-right">
+            <div className="mx-2 text-sm/7 text-gray-500 dark:text-gray-400 text-right max-md:text-center max-md:mt-4">
               © {year} - Feito com <span className="text-red-500 dark:text-red-400">❤</span>
             </div>
           </Section>

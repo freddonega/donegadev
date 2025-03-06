@@ -82,7 +82,7 @@ export const Project = () => {
             dark:[--pattern-fg:var(--color-white)]/10"
         >
           <h2 className="text-lg p-2">Tecnologias usadas no projeto:</h2>
-          <div className="px-2 pb-2 flex gap-2">
+          <div className="px-2 pb-2 flex gap-2 max-md:flex-col">
             {project.techs &&
               project.techs?.map((tech, key) => (
                 <div
