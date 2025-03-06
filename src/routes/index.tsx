@@ -5,7 +5,6 @@ import { TrackPageView } from "./TrackPageView";
 export const Routes = () => {
   return (
     <DomRoutes>
-      <TrackPageView />
       <Route path="/" element={<Home />} />
       <Route path="/project/:projectId" element={<Project />} />
     </DomRoutes>
