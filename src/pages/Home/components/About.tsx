@@ -10,7 +10,7 @@ export const About = () => {
         <div className="text-gray-300 px-2 max-w-3xl flex items-center min-h-96">
           <div>
             <p className="text-xs italic mb-10 text-right text-gray-500">
-              "Quando criança desmontava meus brinquedos, tentando descobrir como funcionavam.
+              "Quando criança desmontava meus brinquedos tentando descobrir como funcionavam.
               <br /> Hoje percebo que foi a curiosidade que me trouxe até aqui."
             </p>
             <h2 className="text-2xl mb-2">Olá, mundo!</h2>
